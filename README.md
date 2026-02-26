@@ -1,9 +1,9 @@
 # 🏦💰 Java OOP Bank & Store Management System
 
-## Complete Guide for Beginners
+## 🎓 Complete Enterprise-Grade Learning Guide
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&color=00FF00&center=true&width=650&lines=Java+OOP+Bank+%26+Store" alt="Java OOP Project">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=42&color=00FF00&center=true&width=700&lines=Java+OOP+Bank+%26+Store+Management+System" alt="Java OOP Project">
 </p>
 
 <div align="center">
@@ -13,6 +13,7 @@
 ![Beginner](https://img.shields.io/badge-Level-Beginner-red?logoColor=white&style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
 ![Forks](https://img.shields.io/github/forks/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
+![Issues](https://img.shields.io/github/issues/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
 ![License](https://img.shields.io/github/license/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
 
 </div>
@@ -20,97 +21,149 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Ultimate+Beginner+Course+to+Java+OOP&height=180&animation=fadeIn" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Ultimate+Enterprise+Java+OOP+Course+For+Beginners&height=200&animation=fadeIn" width="100%">
 </p>
 
 ---
 
 ## 📋 Table of Contents
 
-1. [What is This Project?](#1-what-is-this-project)
-2. [What is Java?](#2-what-is-java)
-3. [What is OOP?](#3-what-is-object-oriented-programming)
+1. [Project Overview](#1-project-overview)
+2. [Introduction to Java](#2-introduction-to-java)
+3. [Understanding OOP](#3-understanding-object-oriented-programming)
 4. [Project Features](#4-project-features)
-5. [Prerequisites](#5-prerequisites)
-6. [Installation](#6-installation)
-7. [Project Structure](#7-project-structure)
-8. [UML Diagrams](#8-uml-diagrams)
-9. [How to Run](#9-how-to-run)
-10. [Step-by-Step Tutorial](#10-step-by-step-tutorial)
-11. [Code Explanation](#11-code-explanation)
-12. [OOP Concepts](#12-oop-concepts)
-13. [FAQ](#13-faq)
-14. [Author](#14-author)
+5. [System Requirements](#5-system-requirements)
+6. [Installation Guide](#6-installation-guide)
+7. [Project Architecture](#7-project-architecture)
+8. [UML Class Diagrams](#8-uml-class-diagrams)
+9. [Running the Application](#9-running-the-application)
+10. [Comprehensive Tutorial](#10-comprehensive-tutorial)
+11. [Detailed Code Analysis](#11-detailed-code-analysis)
+12. [OOP Principles Deep Dive](#12-oop-principles-deep-dive)
+13. [Best Practices](#13-best-practices)
+14. [Troubleshooting](#14-troubleshooting)
+15. [Frequently Asked Questions](#15-frequently-asked-questions)
+16. [Contributing](#16-contributing)
+17. [License](#17-license)
 
 ---
 
-## 1. What is This Project?
+## 1. Project Overview
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlHFRbmaZtBRhXG/giphy.gif" width="250">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlHFRbmaZtBRhXG/giphy.gif" width="300">
 </p>
 
-This is a comprehensive Java OOP project for learning purposes. It includes two complete applications:
+### 1.1 Welcome to This Project
 
-### 🏦 Banking System
+Welcome to the **Java OOP Bank & Store Management System** - a comprehensive educational project designed to teach Object-Oriented Programming fundamentals through practical, real-world applications.
 
-| Feature | Description |
+This project demonstrates two complete business applications:
+
+| Application | Purpose | Key Operations |
+|-------------|---------|----------------|
+| 🏦 Banking System | Bank account management | Create accounts, deposit, withdraw, overdraft, debtor tracking |
+| 🛒 Store System | Product inventory management | Create products, restock, sell, tax calculation |
+
+### 1.2 Learning Objectives
+
+By the end of this project, you will understand:
+
+- ✅ How to create and use Classes and Objects
+- ✅ Principles of Encapsulation
+- ✅ Constructors and their types
+- ✅ Static vs Instance members
+- ✅ Getter and Setter methods
+- ✅ Method overloading
+- ✅ Data type selection (BigDecimal for money)
+- ✅ Package organization
+
+### 1.3 Target Audience
+
+This project is designed for:
+
+| Audience | Description |
+|----------|-------------|
+| 🎓 Programming beginners | Never wrote code before |
+| 📚 Java learners | Want to understand OOP |
+| 👨‍🏫 Teachers | Teaching OOP concepts |
+| 🔄 Career changers | Moving into programming |
+
+---
+
+## 2. Introduction to Java
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="150">
+</p>
+
+### 2.1 What is Java?
+
+Java is a **high-level, class-based, object-oriented programming language** designed to have as few implementation dependencies as possible.
+
+### 2.2 Why Java?
+
+| Feature | Benefit |
+|---------|---------|
+| **Write Once, Run Anywhere** | Platform independent |
+| **Object-Oriented** | Modular, reusable code |
+| **Automatic Memory Management** | No manual memory handling |
+| **Rich API** | Built-in libraries for everything |
+| **Strong Typing** | Catches errors early |
+| **Large Community** | Tons of resources and support |
+
+### 2.3 Java vs Other Languages
+
+| Aspect | Java | Python | JavaScript |
+|--------|------|--------|------------|
+| Typing | Static | Dynamic | Dynamic |
+| Compiled | Yes | No | No |
+| OOP | Pure | Multi-paradigm | Prototype-based |
+| Use Case | Enterprise, Android | AI, Web | Web |
+
+### 2.4 Your First Java Program
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+### 2.5 Basic Java Syntax
+
+| Concept | Example |
+|---------|---------|
+| Print | `System.out.println("text");` |
+| Variable | `int age = 25;` |
+| If Statement | `if (age > 18) { ... }` |
+| Loop | `for (int i = 0; i < 10; i++) { }` |
+| Method | `public void greet() { }` |
+| Class | `public class Person { }` |
+
+---
+
+## 3. Understanding Object-Oriented Programming
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="150">
+</p>
+
+### 3.1 What is OOP?
+
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of **objects**, which can contain data (attributes) and code (methods).
+
+### 3.2 Core OOP Concepts
+
+| Concept | Description |
 |---------|-------------|
-| Create Account | Open new bank accounts |
-| Deposit | Add money to account |
-| Withdraw | Take money out |
-| Overdraft | Set borrowing limit |
-| Track Debtors | Monitor negative balance accounts |
+| **Encapsulation** | Bundling data and methods together |
+| **Inheritance** | Creating new classes from existing ones |
+| **Polymorphism** | Same interface, different implementations |
+| **Abstraction** | Hiding complex details |
 
-### 🛒 Store System
-
-| Feature | Description |
-|---------|-------------|
-| Create Product | Add new items to inventory |
-| Restock | Add more stock |
-| Sell | Process sales |
-| Calculate Tax | Price with 10% tax |
-| Bulk Pricing | Multiple items pricing |
-
----
-
-## 2. What is Java?
-
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="120">
-</p>
-
-Java is a programming language where you give the computer step-by-step instructions to perform tasks.
-
-### Why Learn Java?
-
-| Reason | Explanation |
-|--------|-------------|
-| **Write Once, Run Anywhere** | Works on Windows, Mac, Linux, Android |
-| **Industry Standard** | Used by Google, Amazon, Netflix, Banks |
-| **Easy to Learn** | English-like syntax |
-| **High Demand** | Excellent job opportunities |
-| **Reliable** | Banks trust Java for financial systems |
-
-### Java vs Human Language
-
-| Human Says | Java Code |
-|------------|-----------|
-| "Hello, how are you?" | `System.out.println("Hello");` |
-| "If hungry, eat food" | `if (hungry) { eatFood(); }` |
-| "Repeat 5 times" | `for (int i=0; i<5; i++) { }` |
-
----
-
-## 3. What is Object-Oriented Programming?
-
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="120">
-</p>
-
-OOP is a way to organize code that matches real-world concepts!
-
-### Classes and Objects
+### 3.3 Classes vs Objects
 
 ```mermaid
 classDiagram
@@ -124,103 +177,189 @@ classDiagram
     
     Dog : "Buddy" --> obj1
     Dog : "Max" --> obj2
+    Dog : "Charlie" --> obj3
 ```
 
-**Class** = Blueprint (Recipe)
-**Object** = Actual thing created (Cake)
+**Class** = Blueprint / Template
+**Object** = Actual instance created from the class
+
+### 3.4 Real-World Analogy
+
+```
+CLASS = RECIPE
+├── Ingredients (Attributes)
+│   ├── flour: 2 cups
+│   ├── sugar: 1 cup
+│   └── eggs: 3
+└── Instructions (Methods)
+    ├── mix()
+    ├── bake()
+    └── cool()
+
+OBJECT = THE CAKE
+├── Actual values
+│   ├── flour: 2 cups (actual)
+│   ├── sugar: 1 cup (actual)
+│   └── eggs: 3 (actual)
+└── Result
+    └── 🎂 Delicious Cake!
+```
 
 ---
 
 ## 4. Project Features
 
-### 🏦 Banking Features
+### 4.1 Banking System Features
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/2838/2838912.png" width="60">
+  <img src="https://cdn-icons-png.flaticon.com/512/2838/2838912.png" width="80">
 </p>
 
-- Create bank accounts with unique codes
-- Deposit and withdraw money
-- Set overdraft limits
-- Track number of debtor accounts
-- View account balance and owner
+| Feature | Description | Example |
+|---------|-------------|---------|
+| ✅ Create Account | Open new bank accounts | Create ACC-001 for John |
+| ✅ Deposit | Add money | Add $500 to account |
+| ✅ Withdraw | Remove money | Take $200 from account |
+| ✅ Overdraft | Set borrowing limit | Allow up to $500 debt |
+| ✅ Track Debtors | Count negative accounts | Monitor accounts < $0 |
+| ✅ View Balance | Check current balance | Show $1,500 |
+| ✅ View Owner | See account owner | Show John Smith |
 
-### 🛒 Store Features
+### 4.2 Store System Features
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" width="60">
+  <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" width="80">
 </p>
 
-- Create products with reference numbers
-- Manage inventory (restock)
-- Process sales
-- Calculate prices with 10% tax
-- Bulk pricing calculations
+| Feature | Description | Example |
+|---------|-------------|---------|
+| ✅ Create Product | Add new items | Add iPhone 15 |
+| ✅ Restock | Increase inventory | Add 50 more phones |
+| ✅ Sell | Decrease inventory | Sell 3 phones |
+| ✅ Calculate Tax | Add 10% VAT | $799 → $878.90 |
+| ✅ Bulk Price | Multiple items total | 5 × $878.90 = $4,394.50 |
+| ✅ View Stock | Check quantity | Show 47 remaining |
 
 ---
 
-## 5. Prerequisites
+## 5. System Requirements
 
-| Tool | Version | Purpose | Download |
-|------|---------|---------|----------|
-| Java JDK | 17+ | Programming language | [Download](https://www.oracle.com/java/technologies/downloads/) |
-| VS Code | Latest | Code editor | [Download](https://code.visualstudio.com/) |
-| Git | Latest | Version control | [Download](https://git-scm.com/) |
+### 5.1 Software Requirements
 
-**Verify Java Installation:**
+| Requirement | Minimum | Recommended |
+|-------------|---------|-------------|
+| Java JDK | 17 | 21 |
+| RAM | 4 GB | 8 GB |
+| Disk Space | 500 MB | 1 GB |
+| OS | Windows 10 / macOS / Linux | Latest |
+
+### 5.2 Required Tools
+
+| Tool | Purpose | Download Link |
+|------|---------|----------------|
+| Java JDK 17+ | Compile and run Java | [Download](https://www.oracle.com/java/technologies/downloads/) |
+| VS Code | Code editor | [Download](https://code.visualstudio.com/) |
+| Git | Version control | [Download](https://git-scm.com/) |
+
+### 5.3 Verify Installation
+
 ```bash
+# Check Java version
 java -version
+
+# Should show:
+# java version "17.0.x" or higher
+
+# Check Java compiler
+javac -version
+
+# Should show:
+# javac 17.0.x or higher
 ```
 
 ---
 
-## 6. Installation
+## 6. Installation Guide
 
-### Step 1: Download
-1. Go to GitHub repository
-2. Click green "Code" button
-3. Click "Download ZIP"
+### 6.1 Step-by-Step Installation
 
-### Step 2: Extract
-1. Right-click ZIP file
-2. Select "Extract All"
-3. Choose folder location
+#### Step 1: Download the Project
 
-### Step 3: Open in IDE
+1. Navigate to: `https://github.com/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive`
+2. Click the green **"Code"** button
+3. Select **"Download ZIP"**
+4. Save the file to your desired location
+
+#### Step 2: Extract the ZIP
+
+1. Right-click on the downloaded ZIP file
+2. Select **"Extract All"**
+3. Choose a destination folder
+4. Click **"Extract"**
+
+#### Step 3: Open in IDE
 
 **VS Code:**
-1. Open VS Code
+```
+1. Launch VS Code
 2. File → Open Folder
-3. Select project folder
+3. Navigate to the extracted folder
+4. Click "Select Folder"
+5. Install "Java Extension Pack" when prompted
+```
 
 **IntelliJ IDEA:**
-1. Open IntelliJ
+```
+1. Launch IntelliJ IDEA
 2. File → Open
-3. Select project folder
+3. Navigate to the folder
+4. Click "OK"
+5. Wait for indexing to complete
+```
 
 ---
 
-## 7. Project Structure
+## 7. Project Architecture
+
+### 7.1 Directory Structure
 
 ```
-📦 java-oop-bank-store
+java-oop-bank-store/
+│
 ├── 📂 src/
-│   ├── 📂 ma/emsi/projets/
-│   │   ├── 📂 banque/
-│   │   │   ├── CompteBancaire.java
-│   │   │   └── Personne.java
-│   │   └── 📂 magasin/
-│   │       └── Article.java
+│   ├── 📂 ma/
+│   │   ├── 📂 emsi/
+│   │   │   ├── 📂 projets/
+│   │   │   │   ├── 📂 banque/
+│   │   │   │   │   ├── CompteBancaire.java
+│   │   │   │   │   └── Personne.java
+│   │   │   │   │
+│   │   │   │   └── 📂 magasin/
+│   │   │   │       └── Article.java
+│   │   │   │
+│   │   │   └── (other packages)
+│   │   │
+│   │   └── (other packages)
+│   │
 │   └── Main.java
-├── README.md
-└── TP2.iml
+│
+├── 📄 README.md
+├── 📦 TP2.iml
+└── 📜 .gitignore
 ```
+
+### 7.2 Package Explanation
+
+| Package | Purpose |
+|---------|---------|
+| `ma.emsi.projets.banque` | Banking system classes |
+| `ma.emsi.projets.magasin` | Store system classes |
 
 ---
 
-## 8. UML Diagrams
+## 8. UML Class Diagrams
 
-### Bank Account System
+### 8.1 Banking System Class Diagram
 
 ```mermaid
 classDiagram
@@ -242,12 +381,16 @@ classDiagram
         +withdraw(amount): boolean
         +authorizeOverdraft(amount)
         +isDebtor(): boolean
+        +getBalance(): BigDecimal
+        +getOwner(): Personne
+        +getCode(): String
+        +getOverdraft(): BigDecimal
     }
     
     CompteBancaire "1" --> "1" Personne : owns
 ```
 
-### Store System
+### 8.2 Store System Class Diagram
 
 ```mermaid
 classDiagram
@@ -256,325 +399,843 @@ classDiagram
         -description: String
         -priceExclTax: double
         -stock: int
-        +restock(quantity)
-        +sell(quantity): boolean
+        +restock(quantity: int)
+        +sell(quantity: int): boolean
         +priceInclTax(): double
+        +salePriceInclTax(quantity: int): double
+        +getReference(): long
+        +getDescription(): String
+        +getPriceExclTax(): double
+        +getStock(): int
     }
 ```
 
-### How It Works
+### 8.3 System Flow Diagram
 
 ```mermaid
 flowchart TD
-    A[Main Method] --> B[Create Person]
-    A --> C[Create Bank Account]
-    A --> D[Create Products]
+    A[<b>PROGRAM START</b>] --> B[<b>CREATE OBJECTS</b>]
     
-    B --> C
+    B --> C[<b>PERSONNE</b>]
+    B --> D[<b>COMPTE BANCAIRE</b>]
+    B --> E[<b>ARTICLE</b>]
     
-    C --> E{Bank Operations}
-    D --> F{Store Operations}
+    C --> F[<b>SET ATTRIBUTES</b>]
+    D --> F
+    E --> F
     
-    E -->|deposit| G[Balance +]
-    E -->|withdraw| H[Balance -]
-    E -->|overdraft| I[Track Debtors]
+    F --> G{<b>USER OPERATION</b>}
     
-    F -->|sell| J[Stock -]
-    F -->|restock| K[Stock +]
-    F -->|tax| L[Price + Tax]
+    G -->|Deposit| H[balance = balance + amount]
+    G -->|Withdraw| I{balance - amount > overdraft?}
+    I -->|Yes| J[balance = balance - amount]
+    I -->|No| K[Return false]
+    
+    G -->|Restock| L[stock = stock + quantity]
+    G -->|Sell| M{stock >= quantity?}
+    M -->|Yes| N[stock = stock - quantity]
+    M -->|No| O[Return false]
+    
+    G -->|Calculate Tax| P[price = price * 1.10]
+    
+    H --> Q[<b>DISPLAY RESULT</b>]
+    J --> Q
+    K --> Q
+    L --> Q
+    N --> Q
+    O --> Q
+    P --> Q
+    
+    Q --> G
+    
+    style A fill:#4CAF50,color:#fff
+    style Q fill:#2196F3,color:#fff
 ```
 
 ---
 
-## 9. How to Run
+## 9. Running the Application
 
-### Command Line
+### 9.1 Using Command Line
+
+#### Compile the Project
+
 ```bash
-# Compile
+# Navigate to project directory
+cd /path/to/java-oop-bank-store
+
+# Compile all Java files
 javac -d out src/ma/emsi/projets/banque/*.java
 javac -d out src/ma/emsi/projets/magasin/*.java
 
-# Run Bank
+# Run the Banking System
 java -cp out ma.emsi.projets.banque.CompteBancaire
 
-# Run Store
+# Run the Store System
 java -cp out ma.emsi.projets.magasin.Article
 ```
 
-### VS Code
-1. Open .java file
-2. Right-click → Run Java
-3. Or press F5
+### 9.2 Using VS Code
 
-### IntelliJ IDEA
-1. Right-click on file
-2. Select Run
-3. Or press Shift + F10
+1. Open the project folder in VS Code
+2. Navigate to the desired Java file:
+   - `src/ma/emsi/projets/banque/CompteBancaire.java`
+   - `src/ma/emsi/projets/magasin/Article.java`
+3. Right-click anywhere in the code
+4. Select **"Run Java"**
+5. Or simply press **F5**
+
+### 9.3 Using IntelliJ IDEA
+
+1. Open the project in IntelliJ IDEA
+2. Right-click on the desired Java file
+3. Select **"Run 'ClassName.main()'"**
+4. Or press **Shift + F10**
 
 ---
 
-## 10. Step-by-Step Tutorial
+## 10. Comprehensive Tutorial
 
-### Part A: Store Module
+### Part A: Store Management System Tutorial
 
-#### Step 1: Create a Product
+#### Lesson A1: Understanding the Article Class
+
+The Article class represents a product in a store. Each article has:
+
+- **reference**: Unique identifier (like a barcode)
+- **description**: What the product is called
+- **priceExclTax**: Price without tax
+- **stock**: How many items are available
+
+#### Lesson A2: Creating Your First Product
+
 ```java
+// Create a new smartphone product
 Article smartphone = new Article(
-    1001,              // reference
-    "iPhone 15",       // description  
-    799.99,           // price without tax
-    50                // stock quantity
+    1001,              // reference (unique ID)
+    "iPhone 15",       // description (name)
+    799.99,           // priceExclTax (without tax)
+    50                // stock (quantity in store)
 );
+
+// Now we have created our first object!
+System.out.println("Created: " + smartphone.getDescription());
+System.out.println("Price: $" + smartphone.getPriceExclTax());
+System.out.println("Stock: " + smartphone.getStock());
 ```
 
-#### Step 2: Sell Products
+**Output:**
+```
+Created: iPhone 15
+Price: $799.99
+Stock: 50
+```
+
+#### Lesson A3: Restocking Products
+
+When you receive new inventory from suppliers:
+
 ```java
-boolean success = smartphone.sell(3);
+// Add 10 more smartphones to the store
+smartphone.restock(10);
+
+// Check the new stock
+System.out.println("Updated stock: " + smartphone.getStock());
+```
+
+**Output:**
+```
+Updated stock: 60
+```
+
+#### Lesson A4: Selling Products
+
+When a customer buys items:
+
+```java
+// Customer wants to buy 5 phones
+boolean success = smartphone.sell(5);
 
 if (success) {
-    System.out.println("Sold 3 phones!");
-    System.out.println("Remaining: " + smartphone.getStock());
+    System.out.println("Sale completed successfully!");
+    System.out.println("Remaining stock: " + smartphone.getStock());
+    System.out.println("Items sold: 5");
 } else {
-    System.out.println("Not enough stock!");
+    System.out.println("Sale failed - not enough stock!");
 }
 ```
 
-#### Step 3: Restock
-```java
-smartphone.restock(10);
-System.out.println("New stock: " + smartphone.getStock());
+**Output (success case):**
+```
+Sale completed successfully!
+Remaining stock: 55
+Items sold: 5
 ```
 
-#### Step 4: Calculate Price with Tax
-```java
-double price = smartphone.priceInclTax();
-System.out.println("Price with tax: $" + price);
+**Output (fail case - not enough stock):**
+```
+Sale failed - not enough stock!
+```
 
-double total = smartphone.salePriceInclTax(5);
-System.out.println("Total for 5: $" + total);
+#### Lesson A5: Calculating Prices with Tax
+
+In most countries, you need to pay VAT or sales tax:
+
+```java
+// Calculate price including 10% tax
+double priceWithTax = smartphone.priceInclTax();
+System.out.println("Price without tax: $" + smartphone.getPriceExclTax());
+System.out.println("Tax (10%): $" + (priceWithTax - smartphone.getPriceExclTax()));
+System.out.println("Price with tax: $" + priceWithTax);
+
+// Calculate total for multiple items
+double totalFor10 = smartphone.salePriceInclTax(10);
+System.out.println("Total for 10 phones: $" + totalFor10);
+```
+
+**Output:**
+```
+Price without tax: $799.99
+Tax (10%): $79.999
+Price with tax: $879.989
+Total for 10 phones: $8799.89
 ```
 
 ---
 
-### Part B: Bank Module
+### Part B: Banking System Tutorial
 
-#### Step 1: Create a Person
+#### Lesson B1: Understanding the CompteBancaire Class
+
+The CompteBancaire class represents a bank account. Each account has:
+
+- **code**: Unique account number
+- **owner**: The person who owns the account (Personne object)
+- **balance**: How much money is in the account
+- **overdraft**: Maximum allowed negative balance
+
+#### Lesson B2: Creating a Person
+
+Before creating a bank account, we need a person:
+
 ```java
+// Create a person (account owner)
 Personne owner = new Personne("Smith", "John");
-System.out.println(owner.getFirstName() + " " + owner.getLastName());
-// Output: John Smith
+
+// Display person information
+System.out.println("Owner created:");
+System.out.println("First Name: " + owner.getFirstName());
+System.out.println("Last Name: " + owner.getLastName());
+System.out.println("Full Name: " + owner.toString());
 ```
 
-#### Step 2: Create Bank Account
+**Output:**
+```
+Owner created:
+First Name: John
+Last Name: Smith
+Full Name: Smith John
+```
+
+#### Lesson B3: Creating a Bank Account
+
+Now create the account:
+
 ```java
+// Create a new bank account
 CompteBancaire account = new CompteBancaire(
     "ACC-001",                    // account code
-    owner,                        // owner
-    BigDecimal.valueOf(1000)      // initial balance
+    owner,                        // the person who owns it
+    BigDecimal.valueOf(1000)      // initial balance: $1000
 );
-```
 
-#### Step 3: Deposit Money
-```java
-account.deposit(BigDecimal.valueOf(500));
+// Display account information
+System.out.println("Account created:");
+System.out.println("Account Code: " + account.getCode());
+System.out.println("Owner: " + account.getOwner());
 System.out.println("Balance: $" + account.getBalance());
-// Result: 1500
+System.out.println("Overdraft: $" + account.getOverdraft());
 ```
 
-#### Step 4: Withdraw Money
+**Output:**
+```
+Account created:
+Account Code: ACC-001
+Owner: Smith John
+Balance: $1000
+Overdraft: $0
+```
+
+#### Lesson B4: Depositing Money
+
+When you receive money (salary, gift, etc.):
+
 ```java
+// Deposit $500 into the account
+account.deposit(BigDecimal.valueOf(500));
+
+System.out.println("After depositing $500:");
+System.out.println("New Balance: $" + account.getBalance());
+```
+
+**Output:**
+```
+After depositing $500:
+New Balance: $1500
+```
+
+#### Lesson B5: Withdrawing Money
+
+When you need to spend money:
+
+```java
+// Try to withdraw $200
 boolean success = account.withdraw(BigDecimal.valueOf(200));
 
 if (success) {
-    System.out.println("Withdrawn $200!");
-    System.out.println("Balance: $" + account.getBalance());
-}
-```
-
-#### Step 5: Set Overdraft
-```java
-account.authorizeOverdraft(BigDecimal.valueOf(500));
-System.out.println("Overdraft limit: $" + account.getOverdraft());
-```
-
-#### Step 6: Check for Debt
-```java
-if (account.isDebtor()) {
-    System.out.println("Account owes money!");
+    System.out.println("Withdrawal successful!");
+    System.out.println("Amount withdrawn: $200");
+    System.out.println("New Balance: $" + account.getBalance());
 } else {
-    System.out.println("Account is healthy!");
+    System.out.println("Withdrawal failed!");
+    System.out.println("Insufficient funds or overdraft limit exceeded");
 }
+```
+
+**Output:**
+```
+Withdrawal successful!
+Amount withdrawn: $200
+New Balance: $1300
+```
+
+#### Lesson B6: Setting Overdraft
+
+Overdraft allows you to go negative up to a certain limit:
+
+```java
+// Allow this account to go up to $500 negative
+account.authorizeOverdraft(BigDecimal.valueOf(500));
+
+System.out.println("Overdraft authorized!");
+System.out.println("Overdraft limit: $" + account.getOverdraft());
+
+// Now try to withdraw more than the balance
+boolean largeWithdrawal = account.withdraw(BigDecimal.valueOf(1500));
+
+System.out.println("After withdrawing $1500:");
+System.out.println("Success: " + largeWithdrawal);
+System.out.println("Balance: $" + account.getBalance());
+```
+
+**Output:**
+```
+Overdraft authorized!
+Overdraft limit: $500
+After withdrawing $1500
+Success: true
+Balance: $-200
+```
+
+#### Lesson B7: Checking Debtor Status
+
+Check if an account owes money to the bank:
+
+```java
+// Check if account is in debt
+if (account.isDebtor()) {
+    System.out.println("⚠️ WARNING: Account is in debt!");
+    System.out.println("Current balance: $" + account.getBalance());
+} else {
+    System.out.println("✅ Account is healthy");
+    System.out.println("Current balance: $" + account.getBalance());
+}
+```
+
+**Output:**
+```
+⚠️ WARNING: Account is in debt!
+Current balance: $-200
 ```
 
 ---
 
-## 11. Code Explanation
+## 11. Detailed Code Analysis
 
-### Article.java - Complete
+### 11.1 Article.java - Complete Analysis
 
 ```java
 package ma.emsi.projets.magasin;
 
-// ATTRIBUTES - What each article HAS
-private long reference;              // Unique ID (like barcode)
-private String description;          // What is it called?
-private double priceExclTax;        // Price before tax
-private int stock;                  // How many in store?
-
-// CONSTRUCTOR - How to CREATE a new article
-public Article(long reference, String description, 
-               double priceExclTax, int stock) {
-    this.reference = reference;
-    this.description = description;
-    this.priceExclTax = priceExclTax;
-    this.stock = stock;
-}
-
-// Add more items to inventory
-public void restock(int numberOfUnits) {
-    this.stock += numberOfUnits;
-}
-
-// Sell items (decrease stock if available)
-public boolean sell(int numberOfUnits) {
-    if (numberOfUnits <= this.stock) {
-        this.stock -= numberOfUnits;
-        return true;
+/**
+ * Article class represents a product in a store.
+ * This class demonstrates basic OOP concepts including:
+ * - Encapsulation
+ * - Constructors
+ * - Methods
+ * - Getters
+ */
+public class Article {
+    
+    // ═══════════════════════════════════════════════════════════
+    // ATTRIBUTES / FIELDS / PROPERTIES
+    // These represent the DATA that each Article object will have
+    // ═══════════════════════════════════════════════════════════
+    
+    /** Unique identifier for the article (like a barcode) */
+    private long reference;
+    
+    /** Name/description of the product */
+    private String description;
+    
+    /** Price without tax (base price) */
+    private double priceExclTax;
+    
+    /** Quantity available in stock */
+    private int stock;
+    
+    // ═══════════════════════════════════════════════════════════
+    // CONSTRUCTORS
+    // Constructors are special methods called when creating an object
+    // ═══════════════════════════════════════════════════════════
+    
+    /**
+     * Constructor to create a new Article with all attributes
+     * @param reference Unique identifier
+     * @param description Product name
+     * @param priceExclTax Price without tax
+     * @param stock Initial quantity
+     */
+    public Article(long reference, String description, 
+                   double priceExclTax, int stock) {
+        this.reference = reference;
+        this.description = description;
+        this.priceExclTax = priceExclTax;
+        this.stock = stock;
     }
-    return false;
-}
-
-// Calculate price with 10% tax
-public double priceInclTax() {
-    return this.priceExclTax * 1.10;
+    
+    // ═══════════════════════════════════════════════════════════
+    // METHODS / FUNCTIONS
+    // These represent the ACTIONS that an Article can perform
+    // ═══════════════════════════════════════════════════════════
+    
+    /**
+     * Add stock to the article
+     * @param numberOfUnits Quantity to add
+     */
+    public void restock(int numberOfUnits) {
+        if (numberOfUnits > 0) {
+            this.stock += numberOfUnits;
+            System.out.println("Restocked " + numberOfUnits + " units.");
+            System.out.println("New stock: " + this.stock);
+        } else {
+            System.out.println("Invalid quantity!");
+        }
+    }
+    
+    /**
+     * Sell (remove) stock from the article
+     * @param numberOfUnits Quantity to sell
+     * @return true if sale successful, false if not enough stock
+     */
+    public boolean sell(int numberOfUnits) {
+        // Check if we have enough stock
+        if (numberOfUnits <= this.stock && numberOfUnits > 0) {
+            this.stock -= numberOfUnits;
+            System.out.println("Sold " + numberOfUnits + " units.");
+            return true;
+        } else {
+            System.out.println("Cannot sell! Not enough stock.");
+            return false;
+        }
+    }
+    
+    /**
+     * Calculate price including 10% tax
+     * @return Price with tax
+     */
+    public double priceInclTax() {
+        return this.priceExclTax * 1.10;
+    }
+    
+    /**
+     * Calculate total price for multiple items including tax
+     * @param quantity Number of items
+     * @return Total price with tax
+     */
+    public double salePriceInclTax(int quantity) {
+        return (this.priceExclTax * quantity) * 1.10;
+    }
+    
+    // ═══════════════════════════════════════════════════════════
+    // GETTER METHODS
+    // These provide READ-ONLY access to private attributes
+    // ═══════════════════════════════════════════════════════════
+    
+    public long getReference() { return this.reference; }
+    public String getDescription() { return this.description; }
+    public double getPriceExclTax() { return this.priceExclTax; }
+    public int getStock() { return this.stock; }
 }
 ```
 
-### CompteBancaire.java - Complete
+### 11.2 CompteBancaire.java - Complete Analysis
 
 ```java
 package ma.emsi.projets.banque;
+
 import java.math.BigDecimal;
 
-// STATIC - Shared by ALL accounts!
-private static int numberOfDebtorAccounts = 0;
-
-// ATTRIBUTES
-private String code;
-private Personne owner;
-private BigDecimal balance;
-private BigDecimal overdraft;
-
-// CONSTRUCTOR
-public CompteBancaire(String code, Personne owner, BigDecimal balance) {
-    this.code = code;
-    this.owner = owner;
-    this.balance = balance;
-    this.overdraft = BigDecimal.ZERO;
+/**
+ * CompteBancaire represents a bank account.
+ * This class demonstrates advanced OOP concepts including:
+ * - Static variables
+ * - BigDecimal for precise calculations
+ * - Multiple constructors
+ * - Method overloading concepts
+ */
+public class CompteBancaire {
     
-    if (balance.compareTo(BigDecimal.ZERO) < 0) {
-        numberOfDebtorAccounts++;
-    }
-}
-
-// Deposit money
-public void deposit(BigDecimal amount) {
-    if (amount.compareTo(BigDecimal.ZERO) > 0) {
-        this.balance = this.balance.add(amount);
-    }
-}
-
-// Withdraw money
-public boolean withdraw(BigDecimal amount) {
-    BigDecimal potential = this.balance.subtract(amount);
-    if (potential.compareTo(this.overdraft.negate()) >= 0) {
-        this.balance = potential;
-        if (this.balance.compareTo(BigDecimal.ZERO) < 0) {
+    // ═══════════════════════════════════════════════════════════
+    // STATIC VARIABLE
+    // Shared by ALL instances of this class
+    // ═══════════════════════════════════════════════════════════
+    
+    /** Counter for all debtor accounts across the bank */
+    private static int numberOfDebtorAccounts = 0;
+    
+    // ═══════════════════════════════════════════════════════════
+    // INSTANCE VARIABLES
+    // Each object has its own copy of these
+    // ═══════════════════════════════════════════════════════════
+    
+    /** Unique account identifier */
+    private String code;
+    
+    /** The person who owns this account */
+    private Personne owner;
+    
+    /** Current balance (can be negative!) */
+    private BigDecimal balance;
+    
+    /** Maximum allowed negative balance */
+    private BigDecimal overdraft;
+    
+    // ═══════════════════════════════════════════════════════════
+    // CONSTRUCTORS
+    // ═══════════════════════════════════════════════════════════
+    
+    /**
+     * Full constructor with initial balance
+     * @param code Account number
+     * @param owner Account owner
+     * @param initialBalance Starting balance
+     */
+    public CompteBancaire(String code, Personne owner, 
+                          BigDecimal initialBalance) {
+        this.code = code;
+        this.owner = owner;
+        this.balance = initialBalance;
+        this.overdraft = BigDecimal.ZERO;
+        
+        // If starting with negative balance, count as debtor
+        if (initialBalance.compareTo(BigDecimal.ZERO) < 0) {
             numberOfDebtorAccounts++;
         }
-        return true;
     }
-    return false;
-}
-
-// Set overdraft
-public void authorizeOverdraft(BigDecimal amount) {
-    if (amount.compareTo(BigDecimal.ZERO) > 0) {
-        this.overdraft = amount;
+    
+    /**
+     * Constructor with default zero balance
+     * @param code Account number
+     * @param owner Account owner
+     */
+    public CompteBancaire(String code, Personne owner) {
+        this(code, owner, BigDecimal.ZERO);
+    }
+    
+    // ═══════════════════════════════════════════════════════════
+    // METHODS
+    // ═══════════════════════════════════════════════════════════
+    
+    /**
+     * Deposit money into account
+     * @param amount Amount to deposit (must be positive)
+     */
+    public void deposit(BigDecimal amount) {
+        if (amount != null && amount.compareTo(BigDecimal.ZERO) > 0) {
+            this.balance = this.balance.add(amount);
+            System.out.println("Deposited: $" + amount);
+            System.out.println("New balance: $" + this.balance);
+        } else {
+            System.out.println("Invalid deposit amount!");
+        }
+    }
+    
+    /**
+     * Withdraw money from account
+     * @param amount Amount to withdraw
+     * @return true if successful, false if insufficient funds
+     */
+    public boolean withdraw(BigDecimal amount) {
+        if (amount == null || amount.compareTo(BigDecimal.ZERO) <= 0) {
+            System.out.println("Invalid withdrawal amount!");
+            return false;
+        }
+        
+        // Calculate what balance would be after withdrawal
+        BigDecimal potentialBalance = this.balance.subtract(amount);
+        
+        // Check if within overdraft limit
+        // Balance must not go below negative of overdraft
+        BigDecimal minimumAllowed = this.overdraft.negate();
+        
+        if (potentialBalance.compareTo(minimumAllowed) >= 0) {
+            this.balance = potentialBalance;
+            
+            // Check if now in debt
+            if (this.balance.compareTo(BigDecimal.ZERO) < 0) {
+                numberOfDebtorAccounts++;
+            }
+            
+            System.out.println("Withdrawn: $" + amount);
+            System.out.println("New balance: $" + this.balance);
+            return true;
+        } else {
+            System.out.println("Withdrawal failed! Would exceed overdraft limit.");
+            return false;
+        }
+    }
+    
+    /**
+     * Set/authorize overdraft limit
+     * @param amount Maximum allowed negative balance
+     */
+    public void authorizeOverdraft(BigDecimal amount) {
+        if (amount != null && amount.compareTo(BigDecimal.ZERO) > 0) {
+            this.overdraft = amount;
+            System.out.println("Overdraft authorized: $" + amount);
+        }
+    }
+    
+    /**
+     * Check if account is in debt (negative balance)
+     * @return true if balance is negative
+     */
+    public boolean isDebtor() {
+        return this.balance.compareTo(BigDecimal.ZERO) < 0;
+    }
+    
+    // ═══════════════════════════════════════════════════════════
+    // GETTER METHODS
+    // ═══════════════════════════════════════════════════════════
+    
+    public String getCode() { return this.code; }
+    public Personne getOwner() { return this.owner; }
+    public BigDecimal getBalance() { return this.balance; }
+    public BigDecimal getOverdraft() { return this.overdraft; }
+    
+    public static int getNumberOfDebtorAccounts() { 
+        return numberOfDebtorAccounts; 
     }
 }
+```
 
-// Check if in debt
-public boolean isDebtor() {
-    return this.balance.compareTo(BigDecimal.ZERO) < 0;
+### 11.3 Personne.java - Complete Analysis
+
+```java
+package ma.emsi.projets.banque;
+
+/**
+ * Personne represents a person (account owner).
+ * Simple class demonstrating basic OOP principles.
+ */
+public class Personne {
+    
+    private String lastName;
+    private String firstName;
+    
+    public Personne(String lastName, String firstName) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+    }
+    
+    public String getLastName() { return this.lastName; }
+    public String getFirstName() { return this.firstName; }
+    
+    @Override
+    public String toString() {
+        return lastName + " " + firstName;
+    }
 }
 ```
 
 ---
 
-## 12. OOP Concepts
+## 12. OOP Principles Deep Dive
 
-### Classes & Objects
+### 12.1 Encapsulation
 
-**Class** = Blueprint (Recipe for cake)
-**Object** = Actual thing (The cake itself)
+**Definition:** Bundling data (attributes) and methods together while restricting direct access to some components.
 
-### Encapsulation
+```java
+// WRONG - Direct access to private data!
+account.balance = 1000000; // ❌ DANGEROUS!
 
-- **Private** = Can't access directly (protected)
-- **Public** = Can access through methods
+// RIGHT - Using public methods
+account.deposit(BigDecimal.valueOf(100)); // ✅ SAFE
+```
 
-### Constructors
+**Benefits:**
+- Data protection
+- Code maintainability
+- Flexibility to change internal implementation
 
-Special method that creates new objects
+### 12.2 Constructors
 
-### Static vs Instance
+**Definition:** Special methods used to initialize objects.
 
-- **Instance** = Each object has its own
-- **Static** = All objects share one copy
+```java
+// No-argument constructor
+public Article() { }
 
-### Getters & Setters
+// Parameterized constructor
+public Article(long ref, String desc) {
+    this.reference = ref;
+    this.description = desc;
+}
+```
 
-- **Getter** = Read value
-- **Setter** = Change value (with validation)
+### 12.3 Static vs Instance
+
+| Aspect | Instance | Static |
+|--------|----------|--------|
+| Belongs to | Object | Class |
+| Created | With `new` | At class load |
+| Access | `object.method()` | `Class.method()` |
+| Example | `account.balance` | `CompteBancaire.numberOfDebtorAccounts` |
+
+### 12.4 Getters and Setters
+
+```java
+// Getter - Read data
+public BigDecimal getBalance() {
+    return this.balance;
+}
+
+// Setter - Modify data (with validation)
+public void setBalance(BigDecimal newBalance) {
+    if (newBalance != null) {
+        this.balance = newBalance;
+    }
+}
+```
 
 ---
 
-## 13. FAQ
+## 13. Best Practices
 
-### Q: I'm completely new. Where do I start?
-A: Start here! This guide is for total beginners.
+### 13.1 Naming Conventions
 
-### Q: What's the difference between Java and JavaScript?
-A: Java = apps, games, Android. JavaScript = websites.
+| Type | Convention | Example |
+|------|------------|---------|
+| Class | PascalCase | `CompteBancaire` |
+| Method | camelCase | `depositMoney()` |
+| Variable | camelCase | `accountBalance` |
+| Constant | UPPER_SNAKE | `MAX_OVERDRAFT` |
 
-### Q: Why use BigDecimal for money?
-A: Regular numbers have tiny errors. BigDecimal is exact!
+### 13.2 Code Organization
 
-### Q: What does @Override mean?
-A: "I'm changing the default behavior"
+```
+1. Package declaration
+2. Imports
+3. Class declaration
+   a. Static variables
+   b. Instance variables
+   c. Constructors
+   d. Public methods
+   e. Private methods
+   f. Getters/Setters
+```
 
-### Q: How long to learn Java?
-A: Basic understanding: 1-2 weeks. Comfortable: 1-3 months.
+### 13.3 Comments
+
+```java
+/**
+ * Brief description of what this class does.
+ * 
+ * @author Your Name
+ * @version 1.0
+ * @since 2026
+ */
+public class Article { }
+```
 
 ---
 
-## 14. Author
+## 14. Troubleshooting
 
-| Platform | Link |
-|----------|------|
-| GitHub | [Lagmouchyoussef](https://github.com/Lagmouchyoussef) |
+### 14.1 Common Issues
+
+| Issue | Solution |
+|-------|----------|
+| "Cannot find symbol" | Check import statements |
+| "Class not found" | Verify classpath |
+| "NullPointerException" | Check object initialization |
+| "NumberFormatException" | Validate input types |
+
+### 14.2 Java Errors Explained
+
+| Error | Meaning | Fix |
+|-------|---------|-----|
+| `Syntax error` | Code doesn't follow Java rules | Check spelling/symbols |
+| `Type mismatch` | Wrong data type | Check variable types |
+| `NullPointerException` | Using null object | Initialize objects |
+| `ArrayIndexOutOfBounds` | Accessing invalid index | Check loop bounds |
+
+---
+
+## 15. Frequently Asked Questions
+
+### Q1: I'm completely new to programming. Is this for me?
+**A:** Absolutely! This project starts from the basics and explains everything.
+
+### Q2: What's the difference between Java and JavaScript?
+**A:** They're completely different! Java = apps/games/Android, JavaScript = websites.
+
+### Q3: Why use BigDecimal instead of double for money?
+**A:** Because double can have tiny errors (0.1 + 0.2 = 0.30000000000000004). BigDecimal is exact!
+
+### Q4: What does @Override mean?
+**A:** It tells Java you're replacing a default method with your own version.
+
+### Q5: How long does it take to learn Java?
+**A:** Basic understanding: 2-4 weeks. Comfortable: 2-3 months. Professional: 1+ year.
+
+### Q6: Can I use this for my school project?
+**A:** Yes! This is open source. Just mention the source.
+
+---
+
+## 16. Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+## 17. License
+
+This project is licensed under the MIT License.
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=3&text=Thank+you+for+visiting!" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:e74c3c&height=4" width="100%">
 </p>
 
 ---
 
 <p align="center">
-  ⭐ Star this repository if it helped you!
+  <strong>⭐ Don't forget to star this repository if you found it useful!</strong>
 </p>
 
 <p align="center">
