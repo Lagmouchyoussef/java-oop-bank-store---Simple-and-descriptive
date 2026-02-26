@@ -441,7 +441,7 @@ java -cp out ma.emsi.projets.magasin.Article
 3. Click "Run Java"
 4. Or press F5
 
-### Option 3: IntelliJ IDEA 2026 - Complete Guide
+### Option 3: IntelliJ IDEA 2026 - Beginner Guide
 
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/179/179361.png" width="100" alt="IntelliJ IDEA">
