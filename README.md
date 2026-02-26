@@ -447,7 +447,7 @@ java -cp out ma.emsi.projets.magasin.Article
   <img src="https://cdn-icons-png.flaticon.com/512/179/179361.png" width="100" alt="IntelliJ IDEA">
 </p>
 
-#### Step 1: Download and Install IntelliJ IDEA 2026
+#### Step 1: Download and Install
 
 | Step | Action | Screenshot |
 |------|--------|------------|
