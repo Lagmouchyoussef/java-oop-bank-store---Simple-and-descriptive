@@ -1121,8 +1121,6 @@ public String toString() {
 | Platform | Link | Icon |
 |----------|------|------|
 | 🐙 GitHub | [Lagmouchyoussef](https://github.com/Lagmouchyoussef) | <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" width="30"> |
-| 🎓 School | [EMSI Casablanca](https://www.emsi.ma/) | <img src="https://cdn-icons-png.flaticon.com/512/2282/2282341.png" width="30"> |
-| 📧 Email | youssef.lagmouch@emsi.ma | <img src="https://cdn-icons-png.flaticon.com/512/542/542638.png" width="30"> |
 
 </div>
 
@@ -1178,7 +1176,7 @@ public String toString() {
 
 **Don't forget to ⭐ this repository if it helped you!**
 
-**Made with ❤️ by Youssef Lagmouch - EMSI Casablanca - 3IIR G9 G92**
+**Made with ❤️ by Youssef Lagmouch**
 
 </div>
 
