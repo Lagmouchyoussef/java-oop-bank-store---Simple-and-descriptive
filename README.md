@@ -11,7 +11,6 @@
 ![Beginner](https://img.shields.io/badge-Level-Beginner-red?logoColor=white&style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
 ![Forks](https://img.shields.io/github/forks/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
-![Issues](https://img.shields.io/github/issues/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
 ![License](https://img.shields.io/github/license/Lagmouchyoussef/java-oop-bank-store---Simple-and-descriptive?style=for-the-badge&logo=github)
 
 </div>
@@ -103,17 +102,25 @@ You're teaching a robot to make a sandwich. You need to give it **step-by-step i
 
 ---
 
-### Human vs Computer Language
+### Human vs Computer Language (Mermaid)
 
-<div align="center">
-
-| Human Language | Computer Language |
-|----------------|-------------------|
-| 🗣️ "Hello, how are you?" | 💻 `System.out.println("Hello, how are you?");` |
-| 🗣️ "If I'm hungry, eat food" | 💻 `if (hungry) { eatFood(); }` |
-| 🗣️ "Repeat this 5 times" | 💻 `for (int i = 0; i < 5; i++) { ... }` |
-
-</div>
+```mermaid
+---
+title: Human vs Computer Language
+---
+graph LR
+    A[🗣️ Human] -->|Says| B["Hello, how are you?"]
+    C[💻 Computer] -->|Executes| D["System.out.println('Hello');"]
+    
+    A -->|Says| E["If I'm hungry, eat food"]
+    C -->|Executes| F["if (hungry) { eatFood(); }"]
+    
+    A -->|Says| G["Repeat 5 times"]
+    C -->|Executes| H["for (int i=0; i<5; i++)"]
+    
+    style A fill:#ff9900,color:#fff
+    style C fill:#0078d4,color:#fff
+```
 
 ---
 
@@ -127,49 +134,87 @@ You're teaching a robot to make a sandwich. You need to give it **step-by-step i
 
 ---
 
-### Real-World Example: Dogs
+### Real-World Example: Dogs (Mermaid)
 
-| THE DOG BLUEPRINT (CLASS) | |
-|---------------------------|---|
-| **PROPERTIES** (What a dog HAS) | |
-| 🐕 name | "Buddy" |
-| 🎨 color | "Golden" |
-| 📅 age | 3 |
-| 🐶 breed | "Golden Retriever" |
-| **ACTIONS** (What a dog CAN DO) | |
-| 🗣️ bark() | "Woof! Woof!" |
-| 🍖 eat() | Chewing... |
-| 😴 sleep() | ZZZ... ZZZ... |
-| 🎾 play() | Running around! |
+```mermaid
+---
+title: Dog Class Blueprint
+---
+classDiagram
+    class Dog {
+        +String name
+        +String color
+        +int age
+        +String breed
+        +bark()
+        +eat()
+        +sleep()
+        +play()
+    }
+    
+    Dog : "Buddy" --> Object1
+    Dog : "Max" --> Object2
+    Dog : "Charlie" --> Object3
+    
+    style Dog fill:#9b59b6,color:#fff
+```
 
-| BUDDY (Object #1) | MAX (Object #2) |
-|-------------------|-----------------|
-| name: "Buddy" | name: "Max" |
-| color: "Golden" | color: "Black" |
-| age: 3 | age: 5 |
-| breed: "Retriever" | breed: "Labrador" |
+### Objects in Action (Mermaid)
+
+```mermaid
+---
+title: Dog Objects Created from Class
+---
+graph LR
+    subgraph BUDDY["BUDDY (Object #1)"]
+        B1[name: "Buddy"]
+        B2[color: "Golden"]
+        B3[age: 3]
+    end
+    
+    subgraph MAX["MAX (Object #2)"]
+        M1[name: "Max"]
+        M2[color: "Black"]
+        M3[age: 5]
+    end
+    
+    DOG[Dog Class Blueprint] -->|Creates| BUDDY
+    DOG -->|Creates| MAX
+    
+    style DOG fill:#e74c3c,color:#fff
+    style BUDDY fill:#27ae60,color:#fff
+    style MAX fill:#3498db,color:#fff
+```
 
 ---
 
-### In Our Project
+### In Our Project (Mermaid)
 
-| ARTICLE (THE CLASS) - Blueprint | |
-|--------------------------------|---|
-| **Every article HAS** | |
-| 📋 reference | unique ID |
-| 📝 description | name |
-| 💵 priceExclTax | cost |
-| 📦 stock | quantity |
-| **Every article CAN** | |
-| ➕ restock() | Add more items |
-| ➖ sell() | Remove items (when sold) |
-| 💰 priceInclTax() | Price + 10% tax |
-
-| Objects (Actual Products) | | |
-|---------------------------|---|---|
-| 📱 iPhone 15 | ref: 1001 | price: $999, stock: 50 |
-| 💻 MacBook Pro | ref: 1002 | price: $1499, stock: 25 |
-| 📺 Samsung TV | ref: 1003 | price: $599, stock: 100 |
+```mermaid
+---
+title: Article Class and Objects
+---
+classDiagram
+    class Article {
+        +long reference
+        +String description
+        +double priceExclTax
+        +int stock
+        +restock()
+        +sell()
+        +priceInclTax()
+    }
+    
+    A1[📱 iPhone 15] : ref=1001, price=$999
+    A2[💻 MacBook Pro] : ref=1002, price=$1499
+    A3[📺 Samsung TV] : ref=1003, price=$599
+    
+    Article -->|Creates| A1
+    Article -->|Creates| A2
+    Article -->|Creates| A3
+    
+    style Article fill:#f39c12,color:#fff
+```
 
 ---
 
@@ -644,79 +689,146 @@ public boolean isDebtor() {
 
 ---
 
-## 12. OOP Concepts
+## 12. OOP Concepts (with Mermaid)
 
 ### Concept 1: Classes & Objects
 
-| RECIPE vs CAKE | |
-|----------------|---|
-| **RECIPE** (CLASS) | **CAKE** (OBJECT) |
-| - flour: 2 cups | - flour: 2 cups (actual value!) |
-| - sugar: 1 cup | - sugar: 1 cup (actual value!) |
-| - eggs: 3 | - eggs: 3 (actual value!) |
-| bake() method | The actual baked cake! |
-
-| In our project | |
-|----------------|---|
-| CLASS "Article" | OBJECT "iPhone 15", "Samsung S24" |
-| CLASS "Personne" | OBJECT "John Smith", "Jane Doe" |
-| CLASS "CompteBancaire" | OBJECT John's Account, Jane's Account |
+```mermaid
+---
+title: Recipe vs Cake (Class vs Object)
+---
+graph LR
+    subgraph CLASS["RECIPE (CLASS)"]
+        C1[flour: 2 cups]
+        C2[sugar: 1 cup]
+        C3[eggs: 3]
+        C4[bake()]
+    end
+    
+    subgraph OBJECT["CAKE (OBJECT)"]
+        O1[flour: 2 cups]
+        O2[sugar: 1 cup]
+        O3[eggs: 3]
+        O4[🎂 Delicious Cake!]
+    end
+    
+    CLASS -->|Creates| OBJECT
+    
+    style CLASS fill:#e74c3c,color:#fff
+    style OBJECT fill:#27ae60,color:#fff
+```
 
 ---
 
 ### Concept 2: Encapsulation
 
-| BANK ACCOUNT ANALOGY | |
-|----------------------|---|
-| **WRONG:** Direct access | |
-| account.balance = 1,000,000 | ❌ DANGEROUS! |
-| **RIGHT:** Controlled access | |
-| private balance | ← CAN'T touch directly! |
-| public deposit() | ← ✅ Allowed |
-| public withdraw() | ← ✅ Allowed |
-
-**WHY?** To protect your money!
+```mermaid
+---
+title: Bank Account Protection (Encapsulation)
+---
+flowchart TB
+    subgraph WRONG["❌ WRONG: Direct Access"]
+        W1[account.balance = 1,000,000]
+        W2[💥 DANGEROUS!]
+    end
+    
+    subgraph RIGHT["✅ RIGHT: Controlled Access"]
+        R1[private balance]
+        R2[🔒 CAN'T touch directly!]
+        R3[public deposit()] 
+        R4[✅ Allowed]
+        R5[public withdraw()]
+        R6[✅ Allowed]
+    end
+    
+    W1 --> W2
+    
+    style WRONG fill:#e74c3c,color:#fff
+    style RIGHT fill:#27ae60,color:#fff
+```
 
 ---
 
 ### Concept 3: Constructors
 
-| FACTORY ANALOGY | |
-|-----------------|---|
-| **FACTORY** (CONSTRUCTOR) | **PRODUCT** (OBJECT) |
-| Takes instructions to build something | Creates the actual product |
-| Factory: "Make a phone with these specs!" | Result: iPhone 15 |
+```mermaid
+---
+title: Factory vs Product (Constructor)
+---
+graph LR
+    subgraph FACTORY["🏭 FACTORY (CONSTRUCTOR)"]
+        F1[Instructions: Make a phone]
+        F2[Specs: 6.1 inch screen]
+        F3[Blue color, $999]
+    end
+    
+    subgraph PRODUCT["📱 PRODUCT (OBJECT)"]
+        P1[iPhone 15 Created!]
+        P2[6.1 inch, Blue, $999]
+    end
+    
+    FACTORY -->|Builds| PRODUCT
+    
+    style FACTORY fill:#f39c12,color:#fff
+    style PRODUCT fill:#9b59b6,color:#fff
+```
 
 ---
 
 ### Concept 4: Static vs Instance
 
-| INSTANCE (each object has own) | |
-|--------------------------------|---|
-| account1.balance = $1000 | |
-| account2.balance = $500 | (They're DIFFERENT!) |
-
-| STATIC (ALL objects share ONE) | |
-|-------------------------------|---|
-| Bank.numberOfDebtorAccounts = 5 | (Every account sees THE SAME value!) |
-
-| Real example | |
-|--------------|---|
-| Every person has their own | name (instance) |
-| Every person works at the | same company (static) |
+```mermaid
+---
+title: Static vs Instance Variables
+---
+graph LR
+    subgraph INSTANCE["📝 INSTANCE (each has own)"]
+        I1[account1.balance = $1000]
+        I2[account2.balance = $500]
+        I3[They're DIFFERENT!]
+    end
+    
+    subgraph STATIC["🌟 STATIC (shared by ALL)"]
+        S1[Bank.numberOfDebtorAccounts]
+        S2[= 5]
+        S3[Everyone sees SAME value!]
+    end
+    
+    style INSTANCE fill:#3498db,color:#fff
+    style STATIC fill:#e74c3c,color:#fff
+```
 
 ---
 
 ### Concept 5: Getters & Setters
 
-| GIFT BOX ANALOGY | |
-|------------------|---|
-| **GIFT BOX** (private data) | |
-| 💰 Secret Gift | ← Can't reach in directly! |
-| **GETTER** | 👁️ "Can I LOOK at it?" |
-| public BigDecimal getBalance() | return balance; // Just looking! |
-| **SETTER** | ✏️ "Can I CHANGE it?" |
-| public void setBalance(BigDecimal newBalance) | if (valid) { balance = newBalance; } |
+```mermaid
+---
+title: Gift Box (Getters & Setters)
+---
+flowchart TB
+    subgraph GIFT["🎁 GIFT BOX (private data)"]
+        G1[💰 Secret Inside]
+        G2[🔒 Can't reach in directly!]
+    end
+    
+    subgraph GETTER["🎁 GETTER"]
+        G3[Can I LOOK at it?]
+        G4[👀 Yes! Just looking]
+    end
+    
+    subgraph SETTER["✏️ SETTER"]
+        S1[Can I CHANGE it?]
+        S2[✅ Yes, if valid!]
+    end
+    
+    GIFT --> GETTER
+    GIFT --> SETTER
+    
+    style GIFT fill:#9b59b6,color:#fff
+    style GETTER fill:#27ae60,color:#fff
+    style SETTER fill:#3498db,color:#fff
+```
 
 ---
 
