@@ -449,40 +449,28 @@ java -cp out ma.emsi.projets.magasin.Article
 
 #### Step 1: Download and Install
 
-| Step | Action | Screenshot |
-|------|--------|------------|
-| 1 | Go to [JetBrains Website](https://www.jetbrains.com/idea/download/) | 🌐 |
-| 2 | Download **IntelliJ IDEA 2026.1** (or latest) | 💾 |
-| 3 | Run the installer | ▶️ |
-| 4 | Choose **"IntelliJ IDEA Ultimate"** (recommended) | ✅ |
-| 5 | Follow installation wizard | ⚙️ |
+| Step | Action | Download |
+|------|--------|----------|
+| 1 | Go to jetbrains.com/idea/download/ | [Download](https://www.jetbrains.com/idea/download/) |
+| 2 | Download Community (free!) or Ultimate | 💾 |
+| 3 | Run installer | ▶️ |
+| 4 | Follow wizard | ⚙️ |
 
-#### Step 2: Open the Project
+#### Step 2: Open Project
 
-```mermaid
-flowchart TD
-    A[Open IntelliJ IDEA 2026] --> B[Click 'Open' or 'File → Open']
-    B --> C[Navigate to project folder]
-    C --> D[Select 'java-oop-bank-store' folder]
-    D --> E[Click 'OK']
-    E --> F[Wait for indexing...]
-    F --> G[Project is ready! ✅]
-    
-    style A fill:#087CFA,color:#fff
-    style G fill:#27ae60,color:#fff
-```
+1. Click **File → Open**
+2. Find your **java-oop-bank-store** folder
+3. Click OK
+4. Wait for "Indexing..." to finish
 
-#### Step 3: Configure JDK 17+ (Important!)
+#### Step 3: Setup Java JDK (If Needed)
 
-If IntelliJ doesn't detect Java automatically:
-
-1. **File → Project Structure** (or press `Ctrl+Alt+Shift+S`)
-2. Click on **"Project"** tab
-3. Under **"Project SDK"**, click **"Add SDK"** → **"JDK"**
-4. Navigate to your JDK installation (usually: `C:\Program Files\Java\jdk-17` or `C:\Program Files\Java\jdk-21`)
-5. Select the JDK folder and click **"OK"**
-6. Under **"Project language level"**, select **17** or higher
-7. Click **"Apply"** → **"OK"**
+If you see red error about JDK:
+1. **File → Project Structure** (or Ctrl+Alt+Shift+S)
+2. Click **Project** on left
+3. Under **Project SDK**, click **Add SDK → JDK**
+4. Find your Java (usually C:\Program Files\Java\jdk-17)
+5. Click OK → Apply → OK
 
 #### Step 4: Run the Bank System (CompteBancaire)
 
