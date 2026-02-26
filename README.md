@@ -472,7 +472,7 @@ If you see red error about JDK:
 4. Find your Java (usually C:\Program Files\Java\jdk-17)
 5. Click OK → Apply → OK
 
-#### Step 4: Run the Bank System (CompteBancaire)
+#### Step 4: Run Bank System
 
 | Method | Steps |
 |--------|-------|
@@ -484,7 +484,7 @@ If you see red error about JDK:
 | **Method C: Keyboard** | 1. Open the file
 2. Press `Shift + F10` |
 
-#### Step 5: Run the Store System (Article)
+#### Step 5: Run Store System
 
 | Method | Steps |
 |--------|-------|
